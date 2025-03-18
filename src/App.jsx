@@ -10,10 +10,9 @@ function App() {
     
       <NavLink className="inscri" to="/Inscription">Inscription</NavLink>
       <NavLink className="connex" to="/Connexion">Connexion</NavLink>
-     <div>
-      
+     <div className="prsweboite">
+      {/* <p className="presweb">Présentation du site </p> */}
      </div>
-      <h1>je suis app </h1>
     </>
   );
 }

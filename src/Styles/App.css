@@ -23,3 +23,18 @@
   width: 5rem;
   margin-left: 13rem;
 }
+.prsweboite {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50vh;
+  width: 80vw;
+  border-radius: 25px;
+  background-color:grey;
+}
+.presweb {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+text-decoration: none;
+}
