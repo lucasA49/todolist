@@ -7,13 +7,15 @@ import { NavLink } from "react-router-dom";
 function App() {
   return (
     <>
-    
-      <NavLink className="inscri" to="/Inscription">Inscription</NavLink>
-      <NavLink className="connex" to="/Connexion">Connexion</NavLink>
-     <div className="prsweboite">
-      {/* <p className="presweb">Présentation du site </p> */}
-     </div>
-    </>
+      <div className="login">
+        <NavLink className="inscri" to="/Inscription">
+          Inscription
+        </NavLink>
+        <NavLink className="connex" to="/Connexion">
+          Connexion
+        </NavLink>
+        </div>
+    </>       
   );
 }
 

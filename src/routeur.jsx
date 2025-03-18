@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Connexion from './Connexion';
 import Inscription from './Inscription';
-import App from './App';
-
+import Home from './Pages/Home';
 // Définir les routes
 const router = createBrowserRouter([
   {
@@ -13,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
   },
   {
     path: "/inscription",

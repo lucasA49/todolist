@@ -1,7 +1,10 @@
+import App from "./App";
+import Logiin from "./Logiin";
 export default function Connexion() {
   return (
     <>
-      <h1>Connexion</h1>
+    <App/>
+<Logiin/>
     </>
   );
 }

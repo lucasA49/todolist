@@ -2,39 +2,22 @@
   max-width: 1280px;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: whitesmoke;
 }
-.inscri {
-  display: flex;
-  background-color: red;
-  color: blue;
+
+.login{
+  display: flex; /* Active Flexbox */
+  justify-content: center; /* Centre les boutons horizontalement */
+  align-items: center; /* Centre les boutons verticalement (si nécessaire) */
+  gap: 1rem; /* Ajoute un espace entre les boutons */
+}
+.inscri, .connex {
+  background-color: yellow;
+  color: white;
   border-radius: 25px;
   width: 5rem;
-  margin-left: 4rem;
-  width: 5rem;
+  padding: 0.5rem 1rem; /* Ajoute un peu de rembourrage pour l'aspect */
+  border: none; /* Supprime la bordure par défaut (si nécessaire) */
+  cursor: pointer; /* Indique que ce sont des boutons cliquables */
   margin-top: 1rem;
-}
-.connex {
-  display: flex;
-  background-color: red;
-  color: blue;
-  border-radius: 25px;
-  bottom: 2rem;
-  width: 5rem;
-  margin-left: 13rem;
-}
-.prsweboite {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  height: 50vh;
-  width: 80vw;
-  border-radius: 25px;
-  background-color:grey;
-}
-.presweb {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-text-decoration: none;
 }
