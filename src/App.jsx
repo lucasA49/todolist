@@ -1,5 +1,5 @@
 import Connexion from "./Connexion.jsx";
-import Inscription from "./Inscription.jsx";
+import Inscription from "./FormInscription.jsx";
 import "./Styles/App.css";
 import "./routeur.jsx";
 import { NavLink } from "react-router-dom";

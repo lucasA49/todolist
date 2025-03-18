@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Connexion from './Connexion';
-import Inscription from './Inscription';
+import FormInscription from './FormInscription';
 import Home from './Pages/Home';
 // Définir les routes
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/inscription",
-    element: <Inscription />,
+    element: <FormInscription/>,
   }
 ]);
 

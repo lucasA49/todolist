@@ -12,7 +12,7 @@
   gap: 1rem; /* Ajoute un espace entre les boutons */
 }
 .inscri, .connex {
-  background-color: yellow;
+  background-color: grey;
   color: white;
   border-radius: 25px;
   width: 5rem;
@@ -20,4 +20,6 @@
   border: none; /* Supprime la bordure par défaut (si nécessaire) */
   cursor: pointer; /* Indique que ce sont des boutons cliquables */
   margin-top: 1rem;
+  text-decoration: none;
+  text-align: center;
 }

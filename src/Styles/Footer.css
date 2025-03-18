@@ -1,0 +1,16 @@
+.footer{
+display: flex;
+}
+.homebtn{
+  bottom: 0;
+display: flex;
+
+} 
+.homeimg{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 4rem;
+  width: 4rem;
+left: 40%;
+}
