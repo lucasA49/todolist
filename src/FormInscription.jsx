@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './Styles/Inscirption.css';
 import App from './App';
+import Footer from './Footer';
 
 function FormInscription() {
   const [pseudo, setPseudo] = useState('');
@@ -15,7 +16,7 @@ function FormInscription() {
   };
 
   return (
-    <><App /><div className="inscription-container">
+    <><><App /><div className="inscription-container">
       <h2>Inscription</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -47,7 +48,7 @@ function FormInscription() {
         </div>
         <button type="submit">S'inscrire</button>
       </form>
-    </div></>
+    </div></><Footer /></>
   );
 }
 
