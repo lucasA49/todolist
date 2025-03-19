@@ -1,0 +1,22 @@
+.presentation{
+  background-color: gray;
+  color: whitesmoke;
+  border-radius: 25px;
+  display: flex; /* Utilise Flexbox pour centrer le contenu */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  padding: 10px; /* Ajoute un peu d'espace autour du contenu */
+  width: 80%; /* Ajuste la largeur selon tes besoins */
+margin-left  : 1.5rem;
+margin-top: 4rem;
+}
+
+.presentationtext{ /* Sélectionne les paragraphes à l'intérieur de la div */
+  background-color: #ffffff00; /* Ou transparent si tu préfères */
+  padding: 10px 20px; /* Ajuste le rembourrage selon tes besoins */
+  border-radius: 5px; /* Coins légèrement arrondis pour la section centrale */
+}
+
+.presentationtext p  {
+  background-color: #ffffff00;
+}

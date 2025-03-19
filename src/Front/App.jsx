@@ -1,4 +1,4 @@
-import Connexion from "./Connexion.jsx";
+import Connexion from  "./Pages/Connexion.jsx";
 import Inscription from "./FormInscription.jsx";
 import "./Styles/App.css";
 import "./routeur.jsx";
@@ -14,8 +14,8 @@ function App() {
         <NavLink className="connex" to="/Connexion">
           Connexion
         </NavLink>
-        </div>
-    </>       
+      </div>
+    </>
   );
 }
 
